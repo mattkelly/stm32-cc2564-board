@@ -264,13 +264,13 @@ USART2_CTS
 Text GLabel 6150 5100 2    50   Output ~ 0
 USART2_RTS
 Text GLabel 9600 4550 0    50   Output ~ 0
-USART2_TX
+USART2_TX_1V8
 Text GLabel 9600 4650 0    50   Input ~ 0
-USART2_RX
+USART2_RX_1V8
 Text GLabel 9600 4750 0    50   Input ~ 0
-USART2_CTS
+USART2_CTS_1V8
 Text GLabel 9600 4850 0    50   Output ~ 0
-USART2_RTS
+USART2_RTS_1V8
 $Comp
 L Connector:Conn_ARM_JTAG_SWD_10 J2
 U 1 1 5FE369FB
@@ -1247,4 +1247,134 @@ Wire Wire Line
 Wire Wire Line
 	3350 4300 4850 4300
 NoConn ~ 10000 2200
+NoConn ~ 4850 4600
+NoConn ~ 4850 4700
+NoConn ~ 4850 4800
+$Comp
+L Logic_LevelTranslator:TXB0104D U5
+U 1 1 60121C0D
+P 7700 9350
+F 0 "U5" H 7800 8600 50  0000 C CNN
+F 1 "TXB0104D" H 7950 8500 50  0000 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 7700 8600 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/txb0104.pdf" H 7810 9445 50  0001 C CNN
+	1    7700 9350
+	1    0    0    -1  
+$EndComp
+Text Notes 7050 10600 0    50   ~ 0
+level shift 3v3 to 1v8\ndrivers must have drive strength at least 2 mA
+Text GLabel 7300 9450 0    50   Output ~ 0
+USART2_TX
+Text GLabel 7300 9650 0    50   Input ~ 0
+USART2_RX
+Text GLabel 7300 9050 0    50   Input ~ 0
+USART2_CTS
+Text GLabel 7300 9250 0    50   Output ~ 0
+USART2_RTS
+$Comp
+L Device:C C19
+U 1 1 60134842
+P 7100 8400
+F 0 "C19" H 7215 8446 50  0000 L CNN
+F 1 "0.1uF" H 7215 8355 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 7138 8250 50  0001 C CNN
+F 3 "~" H 7100 8400 50  0001 C CNN
+	1    7100 8400
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0101
+U 1 1 60135E6B
+P 7700 10150
+F 0 "#PWR0101" H 7700 9900 50  0001 C CNN
+F 1 "GND" H 7705 9977 50  0000 C CNN
+F 2 "" H 7700 10150 50  0001 C CNN
+F 3 "" H 7700 10150 50  0001 C CNN
+	1    7700 10150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7700 10150 7700 10050
+$Comp
+L Device:C C20
+U 1 1 6013B0A9
+P 8300 8400
+F 0 "C20" H 8415 8446 50  0000 L CNN
+F 1 "0.1uF" H 8415 8355 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 8338 8250 50  0001 C CNN
+F 3 "~" H 8300 8400 50  0001 C CNN
+	1    8300 8400
+	-1   0    0    1   
+$EndComp
+Text GLabel 7100 8100 1    50   Input ~ 0
+VDD_3V3
+Text GLabel 8300 8100 1    50   Input ~ 0
+VDD_1V8
+Wire Wire Line
+	7100 8100 7100 8200
+Wire Wire Line
+	8300 8100 8300 8200
+Wire Wire Line
+	7800 8650 7800 8200
+Wire Wire Line
+	7800 8200 8300 8200
+Connection ~ 8300 8200
+Wire Wire Line
+	8300 8200 8300 8250
+Wire Wire Line
+	7600 8200 7100 8200
+Connection ~ 7100 8200
+Wire Wire Line
+	7100 8200 7100 8250
+Wire Wire Line
+	7600 8200 7600 8650
+$Comp
+L power:GND #PWR0102
+U 1 1 6015AB7F
+P 7100 8550
+F 0 "#PWR0102" H 7100 8300 50  0001 C CNN
+F 1 "GND" H 7105 8377 50  0000 C CNN
+F 2 "" H 7100 8550 50  0001 C CNN
+F 3 "" H 7100 8550 50  0001 C CNN
+	1    7100 8550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0103
+U 1 1 6015B046
+P 8300 8550
+F 0 "#PWR0103" H 8300 8300 50  0001 C CNN
+F 1 "GND" H 8305 8377 50  0000 C CNN
+F 2 "" H 8300 8550 50  0001 C CNN
+F 3 "" H 8300 8550 50  0001 C CNN
+	1    8300 8550
+	1    0    0    -1  
+$EndComp
+Text GLabel 8100 9450 2    50   Output ~ 0
+USART2_TX_1V8
+Text GLabel 8100 9650 2    50   Input ~ 0
+USART2_RX_1V8
+Text GLabel 8100 9050 2    50   Input ~ 0
+USART2_CTS_1V8
+Text GLabel 8100 9250 2    50   Output ~ 0
+USART2_RTS_1V8
+$Comp
+L Device:R R?
+U 1 1 60186067
+P 6500 8500
+F 0 "R?" H 6570 8546 50  0000 L CNN
+F 1 "10k" H 6570 8455 50  0000 L CNN
+F 2 "" V 6430 8500 50  0001 C CNN
+F 3 "~" H 6500 8500 50  0001 C CNN
+	1    6500 8500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6500 8350 6500 8200
+Wire Wire Line
+	6500 8200 7100 8200
+Wire Wire Line
+	7300 8850 6500 8850
+Wire Wire Line
+	6500 8850 6500 8650
 $EndSCHEMATC

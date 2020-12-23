@@ -1,4 +1,5 @@
 (sym_lib_table
   (lib (name TI-CC2564)(type Legacy)(uri /Users/matt/git/kicad/cc2564-board/symbols/CC2564CRVMR.lib)(options "")(descr ""))
   (lib (name TYPE-C-31-M-12)(type Legacy)(uri ${KIPRJMOD}/symbols/TYPE-C-31-M-12.lib)(options "")(descr ""))
+  (lib (name TXB0104D)(type Legacy)(uri /Users/matt/git/kicad/cc2564-board/symbols/TXB0104D.lib)(options "")(descr ""))
 )
