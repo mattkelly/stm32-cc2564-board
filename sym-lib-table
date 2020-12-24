@@ -2,4 +2,5 @@
   (lib (name TI-CC2564)(type Legacy)(uri /Users/matt/git/kicad/cc2564-board/symbols/CC2564CRVMR.lib)(options "")(descr ""))
   (lib (name TYPE-C-31-M-12)(type Legacy)(uri ${KIPRJMOD}/symbols/TYPE-C-31-M-12.lib)(options "")(descr ""))
   (lib (name TXB0104D)(type Legacy)(uri /Users/matt/git/kicad/cc2564-board/symbols/TXB0104D.lib)(options "")(descr ""))
+  (lib (name ECS-327MVATX-3-CN-TR)(type Legacy)(uri /Users/matt/git/kicad/cc2564-board/symbols/ECS-327MVATX-3-CN-TR.lib)(options "")(descr ""))
 )
