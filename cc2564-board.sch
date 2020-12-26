@@ -474,7 +474,7 @@ Wire Wire Line
 	12650 1800 13050 1800
 Wire Wire Line
 	13050 2100 12650 2100
-Text GLabel 15050 1750 1    50   Input ~ 0
+Text GLabel 15150 1850 2    50   Input ~ 0
 VDDA_3V3
 $Comp
 L Device:C C12
@@ -929,8 +929,8 @@ Wire Wire Line
 	5750 1700 5850 1700
 Wire Wire Line
 	6150 1700 6200 1700
-Text Notes 5300 2000 0    50   ~ 0
-probably omit?\nor e.g. TPD4S012DRYR
+Text Notes 5300 2100 0    50   ~ 0
+probably omit?\nor e.g. TPD4S012DRYR,\nUSBLC6-2P6
 $Comp
 L Device:D_Schottky D1
 U 1 1 5FE28676
@@ -1508,46 +1508,21 @@ F 6 "N/A" H 3850 12750 50  0001 L BNN "PARTREV"
 	1    3850 12750
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:C C23
-U 1 1 60632F1C
-P 2600 12800
-F 0 "C23" H 2715 12846 50  0000 L CNN
-F 1 "0.1uF" H 2715 12755 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 2638 12650 50  0001 C CNN
-F 3 "~" H 2600 12800 50  0001 C CNN
-	1    2600 12800
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
-	2600 12650 3050 12650
-Text GLabel 2600 12000 1    50   Input ~ 0
-VDD_1V8
-Connection ~ 2600 12650
+	2850 12650 3050 12650
+Text GLabel 2850 12100 1    50   Input ~ 0
+VDD_1V8_32K
 Wire Wire Line
-	2600 12000 2600 12150
+	2850 12100 2850 12150
 Wire Wire Line
 	3050 12850 3000 12850
 Wire Wire Line
 	3000 12850 3000 12550
 Wire Wire Line
-	3000 12150 2600 12150
-Connection ~ 2600 12150
+	3000 12150 2850 12150
+Connection ~ 2850 12150
 Wire Wire Line
-	2600 12150 2600 12650
-$Comp
-L power:GND #PWR0107
-U 1 1 6066FBF6
-P 2600 13000
-F 0 "#PWR0107" H 2600 12750 50  0001 C CNN
-F 1 "GND" H 2605 12827 50  0000 C CNN
-F 2 "" H 2600 13000 50  0001 C CNN
-F 3 "" H 2600 13000 50  0001 C CNN
-	1    2600 13000
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2600 13000 2600 12950
+	2850 12150 2850 12650
 Wire Wire Line
 	4650 13050 4650 13100
 $Comp
@@ -1684,6 +1659,207 @@ Wire Wire Line
 Text Notes 13750 2450 0    50   ~ 0
 STM VddA decoupling and basic low pass filter
 Wire Wire Line
-	15050 1750 15050 1850
+	15150 1850 15050 1850
 Connection ~ 15050 1850
+Wire Wire Line
+	8300 12650 8300 12750
+Connection ~ 8300 12750
+Wire Wire Line
+	8300 12750 8300 12850
+Connection ~ 8300 12850
+Wire Wire Line
+	8300 12850 8300 12950
+$Comp
+L Device:C C?
+U 1 1 6090E478
+P 8550 12800
+F 0 "C?" H 8665 12846 50  0000 L CNN
+F 1 "1uF" H 8665 12755 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 8588 12650 50  0001 C CNN
+F 3 "~" H 8550 12800 50  0001 C CNN
+	1    8550 12800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 6090F3F2
+P 8950 12800
+F 0 "C?" H 9065 12846 50  0000 L CNN
+F 1 "1uF" H 9065 12755 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 8988 12650 50  0001 C CNN
+F 3 "~" H 8950 12800 50  0001 C CNN
+	1    8950 12800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60924A2D
+P 8950 12950
+F 0 "#PWR?" H 8950 12700 50  0001 C CNN
+F 1 "GND" H 8955 12777 50  0000 C CNN
+F 2 "" H 8950 12950 50  0001 C CNN
+F 3 "" H 8950 12950 50  0001 C CNN
+	1    8950 12950
+	1    0    0    -1  
+$EndComp
+Connection ~ 8950 12950
+Wire Wire Line
+	8550 12650 8950 12650
+Wire Wire Line
+	8550 12950 8950 12950
+Wire Wire Line
+	8300 12650 8550 12650
+Connection ~ 8300 12650
+Connection ~ 8550 12650
+Wire Wire Line
+	8300 13650 8300 13750
+Connection ~ 8300 13750
+Wire Wire Line
+	8300 13750 8300 13850
+Connection ~ 8300 13850
+Wire Wire Line
+	8300 13850 8300 13950
+Connection ~ 8300 13950
+Wire Wire Line
+	8300 13950 8300 14050
+Connection ~ 8300 14050
+Wire Wire Line
+	8300 14050 8300 14150
+Connection ~ 8300 14150
+Wire Wire Line
+	8300 14150 8300 14250
+$Comp
+L Device:C C?
+U 1 1 609A9635
+P 8550 13800
+F 0 "C?" H 8665 13846 50  0000 L CNN
+F 1 "0.1uF" H 8665 13755 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 8588 13650 50  0001 C CNN
+F 3 "~" H 8550 13800 50  0001 C CNN
+	1    8550 13800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 609A963B
+P 9050 13800
+F 0 "C?" H 9165 13846 50  0000 L CNN
+F 1 "0.1uF" H 9165 13755 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 9088 13650 50  0001 C CNN
+F 3 "~" H 9050 13800 50  0001 C CNN
+	1    9050 13800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 609A9641
+P 9050 13950
+F 0 "#PWR?" H 9050 13700 50  0001 C CNN
+F 1 "GND" H 9055 13777 50  0000 C CNN
+F 2 "" H 9050 13950 50  0001 C CNN
+F 3 "" H 9050 13950 50  0001 C CNN
+	1    9050 13950
+	1    0    0    -1  
+$EndComp
+Connection ~ 9050 13950
+Wire Wire Line
+	8300 13650 8550 13650
+Wire Wire Line
+	8550 13950 9050 13950
+Wire Wire Line
+	8550 13650 9050 13650
+Connection ~ 8550 13650
+$Comp
+L Device:C C?
+U 1 1 609D9FCB
+P 9550 13800
+F 0 "C?" H 9665 13846 50  0000 L CNN
+F 1 "0.47uF" H 9665 13755 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 9588 13650 50  0001 C CNN
+F 3 "~" H 9550 13800 50  0001 C CNN
+	1    9550 13800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 609DAA99
+P 10100 13800
+F 0 "C?" H 10215 13846 50  0000 L CNN
+F 1 "0.47uF" H 10215 13755 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 10138 13650 50  0001 C CNN
+F 3 "~" H 10100 13800 50  0001 C CNN
+	1    10100 13800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9050 13950 9550 13950
+Connection ~ 9550 13950
+Wire Wire Line
+	9550 13950 10100 13950
+Wire Wire Line
+	10350 13650 10100 13650
+Connection ~ 9050 13650
+Connection ~ 9550 13650
+Wire Wire Line
+	9550 13650 9050 13650
+Text GLabel 10350 13650 2    50   Input ~ 0
+DIG_LDO_OUT
+Text GLabel 9200 12650 2    50   Input ~ 0
+MLDO_OUT
+Connection ~ 8950 12650
+Wire Wire Line
+	8950 12650 9200 12650
+Connection ~ 10100 13650
+Wire Wire Line
+	10100 13650 9550 13650
+Text GLabel 16950 1850 2    50   Input ~ 0
+VDD_1V8_32K
+$Comp
+L power:GND #PWR?
+U 1 1 60A125D3
+P 16850 2150
+F 0 "#PWR?" H 16850 1900 50  0001 C CNN
+F 1 "GND" H 16855 1977 50  0000 C CNN
+F 2 "" H 16850 2150 50  0001 C CNN
+F 3 "" H 16850 2150 50  0001 C CNN
+	1    16850 2150
+	1    0    0    -1  
+$EndComp
+Connection ~ 16850 1850
+Wire Wire Line
+	16850 1850 16950 1850
+$Comp
+L Device:C C?
+U 1 1 60A125DC
+P 16850 2000
+F 0 "C?" H 16965 2046 50  0000 L CNN
+F 1 "0.1uF" H 16965 1955 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 16888 1850 50  0001 C CNN
+F 3 "~" H 16850 2000 50  0001 C CNN
+	1    16850 2000
+	1    0    0    -1  
+$EndComp
+Text GLabel 16100 1750 1    50   Input ~ 0
+VDD_1V8
+Wire Wire Line
+	16100 1750 16100 1850
+Wire Wire Line
+	16100 1850 16350 1850
+Wire Wire Line
+	16650 1850 16850 1850
+Text Notes 16000 2450 0    50   ~ 0
+CC2564 slow clk oscillator decoupling and filtering
+$Comp
+L Device:Ferrite_Bead FB?
+U 1 1 60A37906
+P 16500 1850
+F 0 "FB?" V 16226 1850 50  0000 C CNN
+F 1 "BK1005HS680-T‎" V 16317 1850 50  0000 C CNN
+F 2 "" V 16430 1850 50  0001 C CNN
+F 3 "~" H 16500 1850 50  0001 C CNN
+	1    16500 1850
+	0    1    1    0   
+$EndComp
+Text Notes 16000 2100 0    50   ~ 0
+68ohm @ 100MHz
 $EndSCHEMATC
