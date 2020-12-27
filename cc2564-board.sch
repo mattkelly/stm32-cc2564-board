@@ -710,71 +710,11 @@ Text GLabel 5900 6150 2    50   UnSpc ~ 0
 USB_D-
 Text Notes 3800 4400 0    50   ~ 0
 OSC_IN
-$Comp
-L Connector_Generic:Conn_01x03 J5
-U 1 1 5FF25060
-P 1750 6650
-F 0 "J5" H 1830 6646 50  0000 L CNN
-F 1 "BOOT1" H 1830 6601 50  0001 L CNN
-F 2 "Connector_PinHeader_1.27mm:PinHeader_1x03_P1.27mm_Vertical" H 1750 6650 50  0001 C CNN
-F 3 "~" H 1750 6650 50  0001 C CNN
-	1    1750 6650
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR022
-U 1 1 5FF25338
-P 1500 6800
-F 0 "#PWR022" H 1500 6550 50  0001 C CNN
-F 1 "GND" H 1505 6627 50  0000 C CNN
-F 2 "" H 1500 6800 50  0001 C CNN
-F 3 "" H 1500 6800 50  0001 C CNN
-	1    1500 6800
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1500 6800 1500 6750
-Wire Wire Line
-	1500 6750 1550 6750
-Text GLabel 1550 6400 1    50   Input ~ 0
+Text GLabel 1650 6000 1    50   Input ~ 0
 VDD_3V3
-Wire Wire Line
-	1550 6400 1550 6550
-Text GLabel 1550 6650 0    50   Input ~ 0
+Text GLabel 1650 6250 0    50   Input ~ 0
 BOOT1
-$Comp
-L Connector_Generic:Conn_01x03 J6
-U 1 1 5FF2D2DA
-P 2500 6650
-F 0 "J6" H 2580 6646 50  0000 L CNN
-F 1 "BOOT0" H 2580 6601 50  0001 L CNN
-F 2 "Connector_PinHeader_1.27mm:PinHeader_1x03_P1.27mm_Vertical" H 2500 6650 50  0001 C CNN
-F 3 "~" H 2500 6650 50  0001 C CNN
-	1    2500 6650
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR023
-U 1 1 5FF2D2F8
-P 2250 6800
-F 0 "#PWR023" H 2250 6550 50  0001 C CNN
-F 1 "GND" H 2255 6627 50  0000 C CNN
-F 2 "" H 2250 6800 50  0001 C CNN
-F 3 "" H 2250 6800 50  0001 C CNN
-	1    2250 6800
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2250 6800 2250 6750
-Wire Wire Line
-	2250 6750 2300 6750
-Text GLabel 2300 6400 1    50   Input ~ 0
-VDD_3V3
-Wire Wire Line
-	2300 6400 2300 6550
-Text GLabel 2300 6650 0    50   Input ~ 0
-BOOT0
-Text Notes 1600 7150 0    50   ~ 0
+Text Notes 1550 6800 0    50   ~ 0
 boot mode select
 Wire Wire Line
 	15250 1900 15700 1900
@@ -2081,4 +2021,46 @@ Wire Wire Line
 	9400 8950 9500 8950
 Wire Wire Line
 	9500 8950 9500 9100
+$Comp
+L Connector_Generic:Conn_02x03_Odd_Even J5
+U 1 1 61711DEB
+P 1850 6250
+F 0 "J5" H 1900 5900 50  0000 C CNN
+F 1 "BOOT" H 1900 6000 50  0000 C CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_2x03_P1.27mm_Vertical" H 1850 6250 50  0001 C CNN
+F 3 "~" H 1850 6250 50  0001 C CNN
+	1    1850 6250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1650 6150 1650 6050
+Wire Wire Line
+	1650 6050 2150 6050
+Wire Wire Line
+	2150 6050 2150 6150
+Connection ~ 1650 6050
+Wire Wire Line
+	1650 6050 1650 6000
+Wire Wire Line
+	1650 6350 1650 6450
+Wire Wire Line
+	1650 6450 2150 6450
+Wire Wire Line
+	2150 6450 2150 6350
+$Comp
+L power:GND #PWR0101
+U 1 1 6175C9AC
+P 1650 6500
+F 0 "#PWR0101" H 1650 6250 50  0001 C CNN
+F 1 "GND" H 1655 6327 50  0000 C CNN
+F 2 "" H 1650 6500 50  0001 C CNN
+F 3 "" H 1650 6500 50  0001 C CNN
+	1    1650 6500
+	1    0    0    -1  
+$EndComp
+Text GLabel 2150 6250 2    50   Input ~ 0
+BOOT0
+Wire Wire Line
+	1650 6500 1650 6450
+Connection ~ 1650 6450
 $EndSCHEMATC
