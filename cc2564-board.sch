@@ -846,7 +846,7 @@ F 3 "~" H 10800 1750 50  0001 C CNN
 $EndComp
 Text GLabel 10950 1750 2    50   Input ~ 0
 SWD_NRST
-Text GLabel 1200 3600 0    50   Input ~ 0
+Text GLabel 1650 3600 0    50   Input ~ 0
 SWD_NRST
 $Comp
 L power:GND #PWR06
@@ -963,23 +963,8 @@ Wire Wire Line
 Connection ~ 7500 2750
 Wire Wire Line
 	7500 2750 7000 2750
-$Comp
-L Device:R R7
-U 1 1 6004FFCD
-P 1450 3600
-F 0 "R7" V 1243 3600 50  0000 C CNN
-F 1 "0" V 1334 3600 50  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" V 1380 3600 50  0001 C CNN
-F 3 "~" H 1450 3600 50  0001 C CNN
-	1    1450 3600
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	1200 3600 1300 3600
-Wire Wire Line
-	1600 3600 1800 3600
 Connection ~ 1800 3600
-Text Notes 1150 3850 0    50   ~ 0
+Text Notes 10900 1650 0    50   ~ 0
 solder bridge?\nomit?\n
 Text Notes 1200 5400 0    50   ~ 0
 ECS-80-18-30-JGN-TR\n8MHz ±20ppm 18pF 100 Ohms 2-SMD\n
@@ -2090,4 +2075,6 @@ NoConn ~ 4300 11000
 NoConn ~ 4300 11100
 NoConn ~ 4300 11200
 NoConn ~ 4300 11300
+Wire Wire Line
+	1650 3600 1800 3600
 $EndSCHEMATC
