@@ -305,6 +305,34 @@ X VDD 4 -800 100 200 R 40 40 0 0 I
 ENDDRAW
 ENDDEF
 #
+# ECS-80-18-30-JGN-TR_ECS-80-18-30-JGN-TR
+#
+DEF ECS-80-18-30-JGN-TR_ECS-80-18-30-JGN-TR Y 0 40 N N 1 L N
+F0 "Y" -200 90 50 H V L BNN
+F1 "ECS-80-18-30-JGN-TR_ECS-80-18-30-JGN-TR" -201 -151 50 H V L BNN
+F2 "XTAL_ECS-80-18-30-JGN-TR" 0 0 50 H I L BNN
+F3 "" 0 0 50 H I L BNN
+F4 "2017" 0 0 50 H I L BNN "PARTREV"
+F5 "Manufacturer Recommendation" 0 0 50 H I L BNN "STANDARD"
+F6 "SMD-2 ECX" 0 0 50 H I L BNN "PACKAGE"
+F7 "The ECX-53 is a miniature SMD Crystal with a 3.2 x 5 mm footprint." 0 0 50 H I L BNN "DESCRIPTION"
+F8 "ECS INC" 0 0 50 H I L BNN "MANUFACTURER"
+F9 "Good" 0 0 50 H I L BNN "AVAILABILITY"
+F10 "ECX-53" 0 0 50 H I L BNN "MP"
+DRAW
+P 2 0 0 6 -100 0 -40 0 N
+P 2 0 0 10 -40 70 -40 -70 N
+P 2 0 0 10 -15 -60 15 -60 N
+P 2 0 0 10 -15 60 -15 -60 N
+P 2 0 0 10 15 -60 15 60 N
+P 2 0 0 10 15 60 -15 60 N
+P 2 0 0 6 40 0 100 0 N
+P 2 0 0 10 40 70 40 -70 N
+X ~ 1 -200 0 100 R 40 40 0 0 P
+X ~ 2 200 0 100 L 40 40 0 0 P
+ENDDRAW
+ENDDEF
+#
 # Logic_LevelTranslator_TXB0104D
 #
 DEF Logic_LevelTranslator_TXB0104D U 0 20 Y Y 1 F N
@@ -658,28 +686,38 @@ X SHIELD__3 S4 700 -700 200 L 40 40 0 0 P
 ENDDRAW
 ENDDEF
 #
-# dk_Coaxial-Connectors-RF_1909763-1
+# UFL-CONNECTOR_1909763-1
 #
-DEF dk_Coaxial-Connectors-RF_1909763-1 J 0 40 Y Y 1 F N
-F0 "J" -50 50 50 H V R CNN
-F1 "dk_Coaxial-Connectors-RF_1909763-1" 50 -100 50 H V L CNN
-F2 "digikey-footprints:UMCoax_Pin_1909763-1" 200 200 60 H I L CNN
-F3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1909763&DocType=Customer+Drawing&DocLang=English" 200 300 60 H I L CNN
-F4 "A118077CT-ND" 200 400 60 H I L CNN "Digi-Key_PN"
-F5 "1909763-1" 200 500 60 H I L CNN "MPN"
-F6 "Connectors, Interconnects" 200 600 60 H I L CNN "Category"
-F7 "Coaxial Connectors (RF)" 200 700 60 H I L CNN "Family"
-F8 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1909763&DocType=Customer+Drawing&DocLang=English" 200 800 60 H I L CNN "DK_Datasheet_Link"
-F9 "/product-detail/en/te-connectivity-amp-connectors/1909763-1/A118077CT-ND/4729711" 200 900 60 H I L CNN "DK_Detail_Page"
-F10 "CONN UMCC JACK STR 50OHM SMD" 200 1000 60 H I L CNN "Description"
-F11 "TE Connectivity AMP Connectors" 200 1100 60 H I L CNN "Manufacturer"
-F12 "Active" 200 1200 60 H I L CNN "Status"
+DEF UFL-CONNECTOR_1909763-1 J 0 40 Y Y 1 L N
+F0 "J" -150 160 50 H V L BNN
+F1 "UFL-CONNECTOR_1909763-1" -170 -320 50 H V L BNN
+F2 "TE_1909763-1" 0 0 50 H I L BNN
+F3 "" 0 0 50 H I L BNN
+F4 "1909763-1" 0 0 50 H I L BNN "Comment"
+F5 "1" 0 0 50 H I L BNN "Number_of_Positions"
 DRAW
-A 2 -1 52 1789 -266 1 1 0 N -50 0 50 -25
-A 3 1 53 271 -1789 1 1 0 N 50 25 -50 0
-C 0 0 25 1 1 0 F
-X ~ 1 0 -200 145 U 50 50 1 1 P
-X ~ 2 200 0 175 L 50 50 1 1 P
+C 0 -100 10 0 0 10 N
+C 0 100 40 0 0 10 N
+P 2 0 0 10 -40 60 0 60 N
+P 2 0 0 10 -30 -230 -50 -260 N
+P 2 0 0 10 0 -230 -30 -230 N
+P 2 0 0 10 0 -230 -20 -260 N
+P 2 0 0 10 0 -230 30 -230 N
+P 2 0 0 10 0 -200 0 -230 N
+P 2 0 0 10 0 60 0 -200 N
+P 2 0 0 10 0 60 40 60 N
+P 2 0 0 10 30 -230 10 -260 N
+P 2 0 0 10 100 -200 0 -200 N
+P 2 0 0 10 100 100 0 100 N
+P 2 0 0 10 102 67 169 98 N
+P 2 0 0 10 102 134 102 67 N
+P 2 0 0 10 106 -234 173 -202 N
+P 2 0 0 10 106 -167 106 -234 N
+P 2 0 0 10 169 98 106 134 N
+P 2 0 0 10 173 -202 110 -167 N
+X SIG 1 -100 100 200 R 40 40 0 0 P
+X GND 2 -100 -100 200 R 40 40 0 0 P
+X GND__1 3 -100 -200 200 R 40 40 0 0 P
 ENDDRAW
 ENDDEF
 #

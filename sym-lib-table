@@ -4,4 +4,8 @@
   (lib (name TXB0104D)(type Legacy)(uri /Users/matt/git/kicad/cc2564-board/symbols/TXB0104D.lib)(options "")(descr ""))
   (lib (name ECS-327MVATX-3-CN-TR)(type Legacy)(uri /Users/matt/git/kicad/cc2564-board/symbols/ECS-327MVATX-3-CN-TR.lib)(options "")(descr ""))
   (lib (name DEA202450BT-1213C1)(type Legacy)(uri /Users/matt/git/kicad/cc2564-board/symbols/DEA202450BT-1213C1.lib)(options "")(descr ""))
+  (lib (name SW_PUSH-TL3342F160QG_TR)(type Legacy)(uri /Users/matt/git/kicad/cc2564-board/symbols/TL3342F160QG_TR.lib)(options "")(descr ""))
+  (lib (name ECS-80-18-30-JGN-TR)(type Legacy)(uri /Users/matt/git/kicad/cc2564-board/symbols/ECS-80-18-30-JGN-TR.lib)(options "")(descr ""))
+  (lib (name UFL-CONNECTOR)(type Legacy)(uri /Users/matt/git/kicad/cc2564-board/symbols/UFL-1909763-1.lib)(options "")(descr ""))
+  (lib (name XTAL-ECS-260-8-36CKM-TR)(type Legacy)(uri /Users/matt/git/kicad/cc2564-board/symbols/ECS-260-8-36CKM-TR.lib)(options "")(descr ""))
 )

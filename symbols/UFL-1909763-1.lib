@@ -1,0 +1,41 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# 1909763-1
+#
+DEF 1909763-1 J 0 40 Y Y 1 L N
+F0 "J" -150 160 50 H V L BNN
+F1 "1909763-1" -170 -320 50 H V L BNN
+F2 "TE_1909763-1" 0 0 50 H I L BNN
+F3 "" 0 0 50 H I L BNN
+F4 "1909763-1" 0 0 50 H I L BNN "Comment"
+F5 "1" 0 0 50 H I L BNN "Number_of_Positions"
+DRAW
+C 0 100 40 0 0 10 N
+P 2 0 0 10 -40 60 0 60 N
+P 2 0 0 10 0 60 40 60 N
+P 2 0 0 10 0 60 0 -200 N
+C 0 -100 10 0 0 10 N
+P 2 0 0 10 100 -200 0 -200 N
+P 2 0 0 10 0 -200 0 -230 N
+P 2 0 0 10 0 -230 -30 -230 N
+P 2 0 0 10 0 -230 30 -230 N
+P 2 0 0 10 -30 -230 -50 -260 N
+P 2 0 0 10 0 -230 -20 -260 N
+P 2 0 0 10 30 -230 10 -260 N
+P 2 0 0 10 102 134 102 67 N
+P 2 0 0 10 102 67 169 98 N
+P 2 0 0 10 169 98 106 134 N
+P 2 0 0 10 106 -167 106 -234 N
+P 2 0 0 10 106 -234 173 -202 N
+P 2 0 0 10 173 -202 110 -167 N
+P 2 0 0 10 100 100 0 100 N
+X SIG 1 -100 100 200 R 40 40 0 0 P 
+X GND 2 -100 -100 200 R 40 40 0 0 P 
+X GND__1 3 -100 -200 200 R 40 40 0 0 P 
+ENDDRAW
+ENDDEF
+#
+# End Library
