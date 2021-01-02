@@ -10,4 +10,5 @@
   (lib (name "XTAL-ECS-260-8-36CKM-TR")(type "Legacy")(uri "/Users/matt/git/kicad/cc2564-board/symbols/ECS-260-8-36CKM-TR.lib")(options "")(descr ""))
   (lib (name "cc2564-board-rescue")(type "Legacy")(uri "${KIPRJMOD}/cc2564-board-rescue.lib")(options "")(descr ""))
   (lib (name "LDO-TLV7111833DDSET")(type "Legacy")(uri "${KIPRJMOD}/symbols/TLV7111833DDSET.lib")(options "")(descr ""))
+  (lib (name "TXB0108DQSR")(type "Legacy")(uri "${KIPRJMOD}/symbols/TXB0108DQSR.lib")(options "")(descr ""))
 )
