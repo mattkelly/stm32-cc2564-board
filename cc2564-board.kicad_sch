@@ -3373,13 +3373,13 @@
 
     (effects (font (size 1.27 1.27)) (justify left))
   )
-  (global_label "USB_CONN_D-" (shape input) (at 118.11 49.53 180)    (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 0 0 0)
+  (global_label "USB_CONN_D+" (shape input) (at 118.11 49.53 180)    (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 256.54 99.06 0)
       (effects (font (size 1.27 1.27)) hide)
     )
 
     (effects (font (size 1.27 1.27)) (justify right))
   )
-  (global_label "USB_D-" (shape input) (at 118.11 54.61 180)    (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 0 0 0)
+  (global_label "USB_D+" (shape input) (at 118.11 54.61 180)    (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 256.54 109.22 0)
       (effects (font (size 1.27 1.27)) hide)
     )
 
@@ -3475,13 +3475,13 @@
 
     (effects (font (size 1.27 1.27)) (justify left))
   )
-  (global_label "USB_CONN_D+" (shape input) (at 138.43 49.53 0)    (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 0 0 0)
+  (global_label "USB_CONN_D-" (shape input) (at 138.43 49.53 0)    (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 256.54 99.06 0)
       (effects (font (size 1.27 1.27)) hide)
     )
 
     (effects (font (size 1.27 1.27)) (justify left))
   )
-  (global_label "USB_D+" (shape input) (at 138.43 54.61 0)    (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 0 0 0)
+  (global_label "USB_D-" (shape input) (at 138.43 54.61 0)    (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 256.54 109.22 0)
       (effects (font (size 1.27 1.27)) hide)
     )
 
@@ -3912,7 +3912,7 @@
   (symbol (lib_id "cc2564-board-rescue:GND-power") (at 21.59 48.26 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005fe25d00")
-    (property "Reference" "#PWR02" (id 0) (at 21.59 54.61 0)
+    (property "Reference" "#PWR01" (id 0) (at 21.59 54.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 21.717 52.6542 0))
@@ -3927,7 +3927,7 @@
   (symbol (lib_id "cc2564-board-rescue:GND-power") (at 30.48 127 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-0000615265cf")
-    (property "Reference" "#PWR018" (id 0) (at 30.48 133.35 0)
+    (property "Reference" "#PWR013" (id 0) (at 30.48 133.35 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 30.607 131.3942 0))
@@ -3942,7 +3942,7 @@
   (symbol (lib_id "cc2564-board-rescue:GND-power") (at 41.91 165.1 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00006175c9ac")
-    (property "Reference" "#PWR022" (id 0) (at 41.91 171.45 0)
+    (property "Reference" "#PWR019" (id 0) (at 41.91 171.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 42.037 169.4942 0))
@@ -3957,7 +3957,7 @@
   (symbol (lib_id "cc2564-board-rescue:GND-power") (at 44.45 127 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00006150b8af")
-    (property "Reference" "#PWR019" (id 0) (at 44.45 133.35 0)
+    (property "Reference" "#PWR014" (id 0) (at 44.45 133.35 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 44.577 131.3942 0))
@@ -4002,7 +4002,7 @@
   (symbol (lib_id "cc2564-board-rescue:GND-power") (at 76.2 340.36 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-000060376938")
-    (property "Reference" "#PWR035" (id 0) (at 76.2 346.71 0)
+    (property "Reference" "#PWR032" (id 0) (at 76.2 346.71 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 76.327 344.7542 0))
@@ -4017,7 +4017,7 @@
   (symbol (lib_id "cc2564-board-rescue:GND-power") (at 87.63 306.07 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00006068e649")
-    (property "Reference" "#PWR033" (id 0) (at 87.63 312.42 0)
+    (property "Reference" "#PWR030" (id 0) (at 87.63 312.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 87.757 310.4642 0))
@@ -4032,7 +4032,7 @@
   (symbol (lib_id "cc2564-board-rescue:GND-power") (at 119.38 173.99 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005fe3f758")
-    (property "Reference" "#PWR023" (id 0) (at 119.38 180.34 0)
+    (property "Reference" "#PWR020" (id 0) (at 119.38 180.34 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 119.507 178.3842 0))
@@ -4062,7 +4062,7 @@
   (symbol (lib_id "cc2564-board-rescue:GND-power") (at 166.37 64.77 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "660fd4ba-11ae-4588-b0d0-877f363ee3d8")
-    (property "Reference" "#PWR0101" (id 0) (at 166.37 71.12 0)
+    (property "Reference" "#PWR07" (id 0) (at 166.37 71.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 166.497 69.1642 0))
@@ -4077,7 +4077,7 @@
   (symbol (lib_id "cc2564-board-rescue:GND-power") (at 182.88 231.14 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00006127b09f")
-    (property "Reference" "#PWR025" (id 0) (at 182.88 237.49 0)
+    (property "Reference" "#PWR022" (id 0) (at 182.88 237.49 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 183.007 235.5342 0))
@@ -4092,7 +4092,7 @@
   (symbol (lib_id "cc2564-board-rescue:GND-power") (at 223.52 273.05 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005fde8c77")
-    (property "Reference" "#PWR030" (id 0) (at 223.52 279.4 0)
+    (property "Reference" "#PWR027" (id 0) (at 223.52 279.4 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 223.647 277.4442 0))
@@ -4107,7 +4107,7 @@
   (symbol (lib_id "cc2564-board-rescue:GND-power") (at 232.41 60.96 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "216382de-d063-48fb-9a0d-73a638126bfa")
-    (property "Reference" "#PWR0102" (id 0) (at 232.41 67.31 0)
+    (property "Reference" "#PWR05" (id 0) (at 232.41 67.31 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 232.537 65.3542 0))
@@ -4122,7 +4122,7 @@
   (symbol (lib_id "cc2564-board-rescue:GND-power") (at 241.3 231.14 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00006126c9ea")
-    (property "Reference" "#PWR026" (id 0) (at 241.3 237.49 0)
+    (property "Reference" "#PWR023" (id 0) (at 241.3 237.49 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 241.427 235.5342 0))
@@ -4137,7 +4137,7 @@
   (symbol (lib_id "cc2564-board-rescue:GND-power") (at 247.65 287.02 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-000060212caa")
-    (property "Reference" "#PWR032" (id 0) (at 247.65 293.37 0)
+    (property "Reference" "#PWR029" (id 0) (at 247.65 293.37 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 247.777 291.4142 0))
@@ -4152,7 +4152,7 @@
   (symbol (lib_id "cc2564-board-rescue:GND-power") (at 251.46 153.67 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "0a09aabf-6795-4d9e-b428-2a64a53f1c2f")
-    (property "Reference" "#PWR?" (id 0) (at 251.46 160.02 0)
+    (property "Reference" "#PWR018" (id 0) (at 251.46 160.02 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 251.587 158.0642 0))
@@ -4167,7 +4167,7 @@
   (symbol (lib_id "cc2564-board-rescue:GND-power") (at 251.46 237.49 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00006117035b")
-    (property "Reference" "#PWR027" (id 0) (at 251.46 243.84 0)
+    (property "Reference" "#PWR024" (id 0) (at 251.46 243.84 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 251.587 241.8842 0))
@@ -4182,7 +4182,7 @@
   (symbol (lib_id "cc2564-board-rescue:GND-power") (at 257.81 121.285 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "c8efb00a-5344-415a-b420-37ba4a448795")
-    (property "Reference" "#PWR?" (id 0) (at 257.81 127.635 0)
+    (property "Reference" "#PWR011" (id 0) (at 257.81 127.635 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 257.937 125.6792 0))
@@ -4197,7 +4197,7 @@
   (symbol (lib_id "cc2564-board-rescue:GND-power") (at 270.51 237.49 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-000061170d2b")
-    (property "Reference" "#PWR028" (id 0) (at 270.51 243.84 0)
+    (property "Reference" "#PWR025" (id 0) (at 270.51 243.84 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 270.637 241.8842 0))
@@ -4212,7 +4212,7 @@
   (symbol (lib_id "cc2564-board-rescue:GND-power") (at 277.495 121.285 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "75873e99-d9bc-4f44-9a6e-c7862d961fc5")
-    (property "Reference" "#PWR?" (id 0) (at 277.495 127.635 0)
+    (property "Reference" "#PWR012" (id 0) (at 277.495 127.635 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 277.622 125.6792 0))
@@ -4227,7 +4227,7 @@
   (symbol (lib_id "cc2564-board-rescue:GND-power") (at 288.29 67.31 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005ff6d771")
-    (property "Reference" "#PWR07" (id 0) (at 288.29 73.66 0)
+    (property "Reference" "#PWR08" (id 0) (at 288.29 73.66 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 288.417 71.7042 0))
@@ -4242,7 +4242,7 @@
   (symbol (lib_id "cc2564-board-rescue:GND-power") (at 297.18 240.03 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-000060ff41df")
-    (property "Reference" "#PWR029" (id 0) (at 297.18 246.38 0)
+    (property "Reference" "#PWR026" (id 0) (at 297.18 246.38 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 297.307 244.4242 0))
@@ -4257,7 +4257,7 @@
   (symbol (lib_id "cc2564-board-rescue:GND-power") (at 304.8 331.47 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-0000601f2454")
-    (property "Reference" "#PWR034" (id 0) (at 304.8 337.82 0)
+    (property "Reference" "#PWR031" (id 0) (at 304.8 337.82 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 304.927 335.8642 0))
@@ -4272,7 +4272,7 @@
   (symbol (lib_id "cc2564-board-rescue:GND-power") (at 306.07 217.17 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-000061816e28")
-    (property "Reference" "#PWR024" (id 0) (at 306.07 223.52 0)
+    (property "Reference" "#PWR021" (id 0) (at 306.07 223.52 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 306.197 221.5642 0))
@@ -4287,7 +4287,7 @@
   (symbol (lib_id "cc2564-board-rescue:GND-power") (at 341.63 285.75 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00006136a4ba")
-    (property "Reference" "#PWR031" (id 0) (at 341.63 292.1 0)
+    (property "Reference" "#PWR028" (id 0) (at 341.63 292.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 341.757 290.1442 0))
@@ -4302,7 +4302,7 @@
   (symbol (lib_id "cc2564-board-rescue:GND-power") (at 359.41 54.61 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005fe47cc1")
-    (property "Reference" "#PWR03" (id 0) (at 359.41 60.96 0)
+    (property "Reference" "#PWR02" (id 0) (at 359.41 60.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 359.537 59.0042 0))
@@ -4347,7 +4347,7 @@
   (symbol (lib_id "cc2564-board-rescue:GND-power") (at 426.72 55.88 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005fe48203")
-    (property "Reference" "#PWR04" (id 0) (at 426.72 62.23 0)
+    (property "Reference" "#PWR03" (id 0) (at 426.72 62.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 426.847 60.2742 0))
@@ -4377,7 +4377,7 @@
   (symbol (lib_id "cc2564-board-rescue:GND-power") (at 477.52 55.88 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-000060a125d3")
-    (property "Reference" "#PWR05" (id 0) (at 477.52 62.23 0)
+    (property "Reference" "#PWR04" (id 0) (at 477.52 62.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 477.647 60.2742 0))
@@ -4392,7 +4392,7 @@
   (symbol (lib_id "cc2564-board-rescue:R-Device") (at 21.59 44.45 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005fe1e709")
-    (property "Reference" "R1" (id 0) (at 23.368 43.2816 0)
+    (property "Reference" "R2" (id 0) (at 23.368 43.2816 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "5.1k" (id 1) (at 23.368 45.593 0)
@@ -4409,7 +4409,7 @@
   (symbol (lib_id "cc2564-board-rescue:R-Device") (at 45.72 288.29 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00006065b2b7")
-    (property "Reference" "R16" (id 0) (at 47.498 287.1216 0)
+    (property "Reference" "R17" (id 0) (at 47.498 287.1216 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (id 1) (at 47.498 289.433 0)
@@ -4439,7 +4439,7 @@
   (symbol (lib_id "cc2564-board-rescue:R-Device") (at 73.66 133.35 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-000060026d0c")
-    (property "Reference" "R10" (id 0) (at 73.66 135.89 90))
+    (property "Reference" "R11" (id 0) (at 73.66 135.89 90))
     (property "Value" "10k" (id 1) (at 73.66 133.35 90))
     (property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" (id 2) (at 73.66 131.572 90)
       (effects (font (size 1.27 1.27)) hide)
@@ -4452,7 +4452,7 @@
   (symbol (lib_id "cc2564-board-rescue:R-Device") (at 80.01 59.69 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005fe1f8a9")
-    (property "Reference" "R3" (id 0) (at 81.788 58.5216 0)
+    (property "Reference" "R5" (id 0) (at 81.788 58.5216 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "5.1k" (id 1) (at 81.788 60.833 0)
@@ -4469,7 +4469,7 @@
   (symbol (lib_id "cc2564-board-rescue:R-Device") (at 82.55 105.41 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-0000600663ff")
-    (property "Reference" "R4" (id 0) (at 82.55 107.95 90))
+    (property "Reference" "R6" (id 0) (at 82.55 107.95 90))
     (property "Value" "10k" (id 1) (at 82.55 105.41 90))
     (property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" (id 2) (at 82.55 103.632 90)
       (effects (font (size 1.27 1.27)) hide)
@@ -4482,7 +4482,7 @@
   (symbol (lib_id "cc2564-board-rescue:R-Device") (at 91.44 294.64 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-0000606c973a")
-    (property "Reference" "R17" (id 0) (at 91.44 289.3822 90))
+    (property "Reference" "R18" (id 0) (at 91.44 289.3822 90))
     (property "Value" "0" (id 1) (at 91.44 291.6936 90))
     (property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" (id 2) (at 91.44 292.862 90)
       (effects (font (size 1.27 1.27)) hide)
@@ -4495,7 +4495,7 @@
   (symbol (lib_id "cc2564-board-rescue:R-Device") (at 138.43 156.21 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-000060d92d6d")
-    (property "Reference" "R12" (id 0) (at 139.7 153.67 90)
+    (property "Reference" "R13" (id 0) (at 139.7 153.67 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0" (id 1) (at 139.7 156.21 90)
@@ -4512,7 +4512,7 @@
   (symbol (lib_id "cc2564-board-rescue:R-Device") (at 138.43 158.75 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-000060d6c057")
-    (property "Reference" "R13" (id 0) (at 137.16 161.29 90)
+    (property "Reference" "R14" (id 0) (at 137.16 161.29 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0" (id 1) (at 138.43 158.75 90)
@@ -4529,7 +4529,7 @@
   (symbol (lib_id "cc2564-board-rescue:R-Device") (at 146.05 148.59 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-000060d52308")
-    (property "Reference" "R11" (id 0) (at 147.828 147.4216 0)
+    (property "Reference" "R12" (id 0) (at 147.828 147.4216 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1.5k" (id 1) (at 147.828 149.733 0)
@@ -4546,7 +4546,7 @@
   (symbol (lib_id "cc2564-board-rescue:R-Device") (at 172.72 44.45 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "74fa4467-11a3-4624-953f-71b57eac81cc")
-    (property "Reference" "R18" (id 0) (at 170.942 45.6184 0)
+    (property "Reference" "R3" (id 0) (at 170.942 45.6184 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (id 1) (at 170.942 43.307 0)
@@ -4563,7 +4563,7 @@
   (symbol (lib_id "cc2564-board-rescue:R-Device") (at 176.53 44.45 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "59c69c7d-a79a-428c-9cfb-7636a832d0c9")
-    (property "Reference" "R19" (id 0) (at 181.102 45.6184 0)
+    (property "Reference" "R4" (id 0) (at 181.102 45.6184 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (id 1) (at 182.372 43.307 0)
@@ -4580,7 +4580,7 @@
   (symbol (lib_id "cc2564-board-rescue:R-Device") (at 212.09 119.38 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "bd66c290-7813-4adf-a0e4-2cb9f9d2c438")
-    (property "Reference" "R?" (id 0) (at 213.868 118.2116 0)
+    (property "Reference" "R7" (id 0) (at 213.868 118.2116 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (id 1) (at 213.868 120.523 0)
@@ -4597,7 +4597,7 @@
   (symbol (lib_id "cc2564-board-rescue:R-Device") (at 292.1 217.17 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-000061154716")
-    (property "Reference" "R14" (id 0) (at 292.1 211.9122 90))
+    (property "Reference" "R15" (id 0) (at 292.1 211.9122 90))
     (property "Value" "0" (id 1) (at 292.1 214.2236 90))
     (property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" (id 2) (at 292.1 215.392 90)
       (effects (font (size 1.27 1.27)) hide)
@@ -4610,7 +4610,7 @@
   (symbol (lib_id "cc2564-board-rescue:R-Device") (at 292.1 229.87 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-000060ff5cb5")
-    (property "Reference" "R15" (id 0) (at 292.1 224.6122 90))
+    (property "Reference" "R16" (id 0) (at 292.1 224.6122 90))
     (property "Value" "0" (id 1) (at 292.1 226.9236 90))
     (property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" (id 2) (at 292.1 228.092 90)
       (effects (font (size 1.27 1.27)) hide)
@@ -4623,7 +4623,7 @@
   (symbol (lib_id "cc2564-board-rescue:R-Device") (at 306.07 43.18 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005ff64bb4")
-    (property "Reference" "R2" (id 0) (at 306.07 37.9222 90))
+    (property "Reference" "R1" (id 0) (at 306.07 37.9222 90))
     (property "Value" "0" (id 1) (at 306.07 40.2336 90))
     (property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" (id 2) (at 306.07 41.402 90)
       (effects (font (size 1.27 1.27)) hide)
@@ -4636,7 +4636,7 @@
   (symbol (lib_id "cc2564-board-rescue:R-Device") (at 399.415 125.73 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005fe2701e")
-    (property "Reference" "R5" (id 0) (at 401.193 124.5616 0)
+    (property "Reference" "R8" (id 0) (at 401.193 124.5616 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "90" (id 1) (at 401.193 126.873 0)
@@ -4653,7 +4653,7 @@
   (symbol (lib_id "cc2564-board-rescue:R-Device") (at 415.925 125.73 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005fe2762f")
-    (property "Reference" "R6" (id 0) (at 417.703 124.5616 0)
+    (property "Reference" "R9" (id 0) (at 417.703 124.5616 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "55" (id 1) (at 417.703 126.873 0)
@@ -4670,7 +4670,7 @@
   (symbol (lib_id "cc2564-board-rescue:R-Device") (at 429.895 125.73 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005fe27a79")
-    (property "Reference" "R7" (id 0) (at 431.673 124.5616 0)
+    (property "Reference" "R10" (id 0) (at 431.673 124.5616 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4" (id 1) (at 431.673 126.873 0)
@@ -4768,7 +4768,7 @@
   (symbol (lib_id "cc2564-board-rescue:C-Device") (at 30.48 123.19 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005fea8038")
-    (property "Reference" "C18" (id 0) (at 26.67 121.92 90)
+    (property "Reference" "C16" (id 0) (at 26.67 121.92 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "20 pF" (id 1) (at 34.29 120.65 90)
@@ -4785,7 +4785,7 @@
   (symbol (lib_id "cc2564-board-rescue:C-Device") (at 44.45 123.19 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005fe98327")
-    (property "Reference" "C19" (id 0) (at 40.64 121.92 90)
+    (property "Reference" "C17" (id 0) (at 40.64 121.92 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "20 pF" (id 1) (at 48.26 120.65 90)
@@ -4819,7 +4819,7 @@
   (symbol (lib_id "cc2564-board-rescue:C-Device") (at 67.31 331.47 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-000060374c44")
-    (property "Reference" "C27" (id 0) (at 63.5 330.2 90)
+    (property "Reference" "C25" (id 0) (at 63.5 330.2 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10 pF" (id 1) (at 71.12 328.93 90)
@@ -4836,7 +4836,7 @@
   (symbol (lib_id "cc2564-board-rescue:C-Device") (at 86.36 331.47 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00006037626d")
-    (property "Reference" "C28" (id 0) (at 82.55 330.2 90)
+    (property "Reference" "C26" (id 0) (at 82.55 330.2 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10 pF" (id 1) (at 90.17 328.93 90)
@@ -4887,7 +4887,7 @@
   (symbol (lib_id "cc2564-board-rescue:C-Device") (at 180.34 241.3 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-000061194b2e")
-    (property "Reference" "C22" (id 0) (at 183.261 240.1316 0)
+    (property "Reference" "C20" (id 0) (at 183.261 240.1316 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "22pF" (id 1) (at 183.261 242.443 0)
@@ -4904,7 +4904,7 @@
   (symbol (lib_id "cc2564-board-rescue:C-Device") (at 194.31 265.43 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005fde69a7")
-    (property "Reference" "C23" (id 0) (at 197.231 264.2616 0)
+    (property "Reference" "C21" (id 0) (at 197.231 264.2616 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (id 1) (at 197.231 266.573 0)
@@ -4921,7 +4921,7 @@
   (symbol (lib_id "cc2564-board-rescue:C-Device") (at 203.2 265.43 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005fde749f")
-    (property "Reference" "C24" (id 0) (at 206.121 264.2616 0)
+    (property "Reference" "C22" (id 0) (at 206.121 264.2616 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (id 1) (at 206.121 266.573 0)
@@ -4938,7 +4938,7 @@
   (symbol (lib_id "cc2564-board-rescue:C-Device") (at 213.36 265.43 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005fde7c1a")
-    (property "Reference" "C25" (id 0) (at 216.281 264.2616 0)
+    (property "Reference" "C23" (id 0) (at 216.281 264.2616 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (id 1) (at 216.281 266.573 0)
@@ -4955,7 +4955,7 @@
   (symbol (lib_id "cc2564-board-rescue:C-Device") (at 223.52 265.43 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005fde7e76")
-    (property "Reference" "C26" (id 0) (at 226.441 264.2616 0)
+    (property "Reference" "C24" (id 0) (at 226.441 264.2616 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (id 1) (at 226.441 266.573 0)
@@ -4972,7 +4972,7 @@
   (symbol (lib_id "cc2564-board-rescue:C-Device") (at 241.3 54.61 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "a1192f57-229b-40f0-902b-e4a0b72418a2")
-    (property "Reference" "C2" (id 0) (at 238.379 55.7784 0)
+    (property "Reference" "C10" (id 0) (at 238.379 55.7784 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (id 1) (at 238.379 53.467 0)
@@ -4989,7 +4989,7 @@
   (symbol (lib_id "cc2564-board-rescue:C-Device") (at 250.19 52.07 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "972a2453-e8f1-4a50-aa90-ab4e93bf817a")
-    (property "Reference" "C1" (id 0) (at 247.269 53.2384 0)
+    (property "Reference" "C6" (id 0) (at 247.269 53.2384 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (id 1) (at 247.269 50.927 0)
@@ -5006,7 +5006,7 @@
   (symbol (lib_id "cc2564-board-rescue:C-Device") (at 251.46 233.68 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00006110ad75")
-    (property "Reference" "C20" (id 0) (at 254.381 232.5116 0)
+    (property "Reference" "C18" (id 0) (at 254.381 232.5116 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "DNP" (id 1) (at 254.381 234.823 0)
@@ -5023,7 +5023,7 @@
   (symbol (lib_id "cc2564-board-rescue:C-Device") (at 257.81 111.76 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "5b8e7df7-283a-44e9-9f9f-111dd5910162")
-    (property "Reference" "C?" (id 0) (at 264.414 112.2934 0)
+    (property "Reference" "C14" (id 0) (at 264.414 112.2934 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (id 1) (at 266.954 109.982 0)
@@ -5040,7 +5040,7 @@
   (symbol (lib_id "cc2564-board-rescue:C-Device") (at 270.51 233.68 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00006111b2bc")
-    (property "Reference" "C21" (id 0) (at 273.431 232.5116 0)
+    (property "Reference" "C19" (id 0) (at 273.431 232.5116 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "DNP" (id 1) (at 273.431 234.823 0)
@@ -5057,7 +5057,7 @@
   (symbol (lib_id "cc2564-board-rescue:C-Device") (at 277.495 113.03 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "9ba8cf5b-ada0-4796-84b4-ebd5a366b75f")
-    (property "Reference" "C?" (id 0) (at 282.829 114.1984 0)
+    (property "Reference" "C15" (id 0) (at 282.829 114.1984 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (id 1) (at 285.369 111.252 0)
@@ -5074,7 +5074,7 @@
   (symbol (lib_id "cc2564-board-rescue:C-Device") (at 335.28 50.8 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005fe4307a")
-    (property "Reference" "C3" (id 0) (at 338.201 49.6316 0)
+    (property "Reference" "C1" (id 0) (at 338.201 49.6316 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (id 1) (at 338.201 51.943 0)
@@ -5091,7 +5091,7 @@
   (symbol (lib_id "cc2564-board-rescue:C-Device") (at 346.71 50.8 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005fe439d3")
-    (property "Reference" "C4" (id 0) (at 349.631 49.6316 0)
+    (property "Reference" "C2" (id 0) (at 349.631 49.6316 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (id 1) (at 349.631 51.943 0)
@@ -5108,7 +5108,7 @@
   (symbol (lib_id "cc2564-board-rescue:C-Device") (at 359.41 50.8 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005fe43f54")
-    (property "Reference" "C5" (id 0) (at 362.331 49.6316 0)
+    (property "Reference" "C3" (id 0) (at 362.331 49.6316 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (id 1) (at 362.331 51.943 0)
@@ -5125,7 +5125,7 @@
   (symbol (lib_id "cc2564-board-rescue:C-Device") (at 370.84 50.8 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005fe44576")
-    (property "Reference" "C6" (id 0) (at 373.761 49.6316 0)
+    (property "Reference" "C4" (id 0) (at 373.761 49.6316 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (id 1) (at 373.761 51.943 0)
@@ -5142,7 +5142,7 @@
   (symbol (lib_id "cc2564-board-rescue:C-Device") (at 382.27 50.8 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005fe37aab")
-    (property "Reference" "C7" (id 0) (at 385.191 49.6316 0)
+    (property "Reference" "C5" (id 0) (at 385.191 49.6316 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10uF" (id 1) (at 385.191 51.943 0)
@@ -5159,7 +5159,7 @@
   (symbol (lib_id "cc2564-board-rescue:C-Device") (at 420.37 52.07 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005fe40ef5")
-    (property "Reference" "C8" (id 0) (at 423.291 50.9016 0)
+    (property "Reference" "C7" (id 0) (at 423.291 50.9016 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (id 1) (at 423.291 53.213 0)
@@ -5176,7 +5176,7 @@
   (symbol (lib_id "cc2564-board-rescue:C-Device") (at 431.8 52.07 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005fe40bc0")
-    (property "Reference" "C9" (id 0) (at 434.721 50.9016 0)
+    (property "Reference" "C8" (id 0) (at 434.721 50.9016 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1uF" (id 1) (at 434.721 53.213 0)
@@ -5193,7 +5193,7 @@
   (symbol (lib_id "cc2564-board-rescue:C-Device") (at 477.52 52.07 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-000060a125dc")
-    (property "Reference" "C10" (id 0) (at 480.441 50.9016 0)
+    (property "Reference" "C9" (id 0) (at 480.441 50.9016 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (id 1) (at 480.441 53.213 0)
@@ -5492,7 +5492,7 @@
   (symbol (lib_id "TXB0108DQSR:TXB0108DQSR") (at 233.68 135.89 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "9e125fa8-f118-4a88-a186-4e1b0f17259b")
-    (property "Reference" "U3" (id 0) (at 233.68 108.7436 0))
+    (property "Reference" "U4" (id 0) (at 233.68 108.7436 0))
     (property "Value" "TXB0108DQSR" (id 1) (at 233.68 111.0423 0))
     (property "Footprint" "cc2654-board-footprints:TXB0108DQSR" (id 2) (at 233.68 135.89 0)
       (effects (font (size 1.27 1.27)) (justify left bottom) hide)
@@ -5505,7 +5505,7 @@
   (symbol (lib_id "cc2564-board-rescue:STM32F103C8Tx-MCU_ST_STM32F1") (at 106.68 133.35 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005fe144ff")
-    (property "Reference" "U4" (id 0) (at 105.41 173.7106 0))
+    (property "Reference" "U3" (id 0) (at 105.41 173.7106 0))
     (property "Value" "STM32F103C8Tx" (id 1) (at 105.41 176.022 0))
     (property "Footprint" "Package_QFP:LQFP-48_7x7mm_P0.5mm" (id 2) (at 91.44 168.91 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
@@ -5518,7 +5518,7 @@
   (symbol (lib_id "TI-CC2564:CC2564CRVMR") (at 278.13 304.8 0) (unit 2)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-0000601ee200")
-    (property "Reference" "U7" (id 0) (at 278.13 269.5448 0)
+    (property "Reference" "U5" (id 0) (at 278.13 269.5448 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Value" "CC2564CRVMR" (id 1) (at 278.13 272.2372 0)
@@ -5535,7 +5535,7 @@
   (symbol (lib_id "TI-CC2564:CC2564CRVMR") (at 144.78 294.64 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-0000601b2d67")
-    (property "Reference" "U7" (id 0) (at 144.78 244.1448 0)
+    (property "Reference" "U5" (id 0) (at 144.78 244.1448 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Value" "CC2564CRVMR" (id 1) (at 144.78 246.8372 0)
@@ -5555,28 +5555,46 @@
 
   (symbol_instances
     (path "/00000000-0000-0000-0000-00005fe25d00"
-      (reference "#PWR02") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR01") (unit 1) (value "GND") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00005fe47cc1"
-      (reference "#PWR03") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR02") (unit 1) (value "GND") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00005fe48203"
-      (reference "#PWR04") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR03") (unit 1) (value "GND") (footprint "")
     )
     (path "/00000000-0000-0000-0000-000060a125d3"
+      (reference "#PWR04") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/216382de-d063-48fb-9a0d-73a638126bfa"
       (reference "#PWR05") (unit 1) (value "GND") (footprint "")
     )
     (path "/00000000-0000-0000-0000-000060b29ae7"
       (reference "#PWR06") (unit 1) (value "GND") (footprint "")
     )
-    (path "/00000000-0000-0000-0000-00005ff6d771"
+    (path "/660fd4ba-11ae-4588-b0d0-877f363ee3d8"
       (reference "#PWR07") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005ff6d771"
+      (reference "#PWR08") (unit 1) (value "GND") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00005fe23161"
       (reference "#PWR09") (unit 1) (value "GND") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00005fe623c5"
       (reference "#PWR010") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/c8efb00a-5344-415a-b420-37ba4a448795"
+      (reference "#PWR011") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/75873e99-d9bc-4f44-9a6e-c7862d961fc5"
+      (reference "#PWR012") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-0000615265cf"
+      (reference "#PWR013") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00006150b8af"
+      (reference "#PWR014") (unit 1) (value "GND") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00005fe2607f"
       (reference "#PWR015") (unit 1) (value "GND") (footprint "")
@@ -5587,100 +5605,82 @@
     (path "/00000000-0000-0000-0000-00005fe267d1"
       (reference "#PWR017") (unit 1) (value "GND") (footprint "")
     )
-    (path "/00000000-0000-0000-0000-0000615265cf"
+    (path "/0a09aabf-6795-4d9e-b428-2a64a53f1c2f"
       (reference "#PWR018") (unit 1) (value "GND") (footprint "")
     )
-    (path "/00000000-0000-0000-0000-00006150b8af"
+    (path "/00000000-0000-0000-0000-00006175c9ac"
       (reference "#PWR019") (unit 1) (value "GND") (footprint "")
     )
-    (path "/00000000-0000-0000-0000-00006175c9ac"
-      (reference "#PWR022") (unit 1) (value "GND") (footprint "")
-    )
     (path "/00000000-0000-0000-0000-00005fe3f758"
-      (reference "#PWR023") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR020") (unit 1) (value "GND") (footprint "")
     )
     (path "/00000000-0000-0000-0000-000061816e28"
-      (reference "#PWR024") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR021") (unit 1) (value "GND") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00006127b09f"
-      (reference "#PWR025") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR022") (unit 1) (value "GND") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00006126c9ea"
-      (reference "#PWR026") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR023") (unit 1) (value "GND") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00006117035b"
-      (reference "#PWR027") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR024") (unit 1) (value "GND") (footprint "")
     )
     (path "/00000000-0000-0000-0000-000061170d2b"
-      (reference "#PWR028") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR025") (unit 1) (value "GND") (footprint "")
     )
     (path "/00000000-0000-0000-0000-000060ff41df"
-      (reference "#PWR029") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR026") (unit 1) (value "GND") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00005fde8c77"
-      (reference "#PWR030") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR027") (unit 1) (value "GND") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00006136a4ba"
-      (reference "#PWR031") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR028") (unit 1) (value "GND") (footprint "")
     )
     (path "/00000000-0000-0000-0000-000060212caa"
-      (reference "#PWR032") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR029") (unit 1) (value "GND") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00006068e649"
-      (reference "#PWR033") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR030") (unit 1) (value "GND") (footprint "")
     )
     (path "/00000000-0000-0000-0000-0000601f2454"
-      (reference "#PWR034") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR031") (unit 1) (value "GND") (footprint "")
     )
     (path "/00000000-0000-0000-0000-000060376938"
-      (reference "#PWR035") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/660fd4ba-11ae-4588-b0d0-877f363ee3d8"
-      (reference "#PWR0101") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/216382de-d063-48fb-9a0d-73a638126bfa"
-      (reference "#PWR0102") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/0a09aabf-6795-4d9e-b428-2a64a53f1c2f"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/75873e99-d9bc-4f44-9a6e-c7862d961fc5"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/c8efb00a-5344-415a-b420-37ba4a448795"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR032") (unit 1) (value "GND") (footprint "")
     )
     (path "/00000000-0000-0000-0000-000061810854"
       (reference "AE1") (unit 1) (value "TI SWRA117D meandered IFA") (footprint "RF_Antenna:Texas_SWRA117D_2.4GHz_Right")
     )
-    (path "/972a2453-e8f1-4a50-aa90-ab4e93bf817a"
+    (path "/00000000-0000-0000-0000-00005fe4307a"
       (reference "C1") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder")
     )
-    (path "/a1192f57-229b-40f0-902b-e4a0b72418a2"
+    (path "/00000000-0000-0000-0000-00005fe439d3"
       (reference "C2") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder")
     )
-    (path "/00000000-0000-0000-0000-00005fe4307a"
+    (path "/00000000-0000-0000-0000-00005fe43f54"
       (reference "C3") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder")
     )
-    (path "/00000000-0000-0000-0000-00005fe439d3"
+    (path "/00000000-0000-0000-0000-00005fe44576"
       (reference "C4") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder")
     )
-    (path "/00000000-0000-0000-0000-00005fe43f54"
-      (reference "C5") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder")
+    (path "/00000000-0000-0000-0000-00005fe37aab"
+      (reference "C5") (unit 1) (value "10uF") (footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder")
     )
-    (path "/00000000-0000-0000-0000-00005fe44576"
+    (path "/972a2453-e8f1-4a50-aa90-ab4e93bf817a"
       (reference "C6") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder")
     )
-    (path "/00000000-0000-0000-0000-00005fe37aab"
-      (reference "C7") (unit 1) (value "10uF") (footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder")
-    )
     (path "/00000000-0000-0000-0000-00005fe40ef5"
-      (reference "C8") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder")
+      (reference "C7") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder")
     )
     (path "/00000000-0000-0000-0000-00005fe40bc0"
-      (reference "C9") (unit 1) (value "1uF") (footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder")
+      (reference "C8") (unit 1) (value "1uF") (footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder")
     )
     (path "/00000000-0000-0000-0000-000060a125dc"
+      (reference "C9") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder")
+    )
+    (path "/a1192f57-229b-40f0-902b-e4a0b72418a2"
       (reference "C10") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder")
     )
     (path "/8da876cd-aff9-4468-abe9-11063607b09a"
@@ -5692,44 +5692,44 @@
     (path "/00000000-0000-0000-0000-00005fe651dc"
       (reference "C13") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder")
     )
-    (path "/00000000-0000-0000-0000-00005fea8038"
-      (reference "C18") (unit 1) (value "20 pF") (footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder")
-    )
-    (path "/00000000-0000-0000-0000-00005fe98327"
-      (reference "C19") (unit 1) (value "20 pF") (footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder")
-    )
-    (path "/00000000-0000-0000-0000-00006110ad75"
-      (reference "C20") (unit 1) (value "DNP") (footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder")
-    )
-    (path "/00000000-0000-0000-0000-00006111b2bc"
-      (reference "C21") (unit 1) (value "DNP") (footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder")
-    )
-    (path "/00000000-0000-0000-0000-000061194b2e"
-      (reference "C22") (unit 1) (value "22pF") (footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder")
-    )
-    (path "/00000000-0000-0000-0000-00005fde69a7"
-      (reference "C23") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder")
-    )
-    (path "/00000000-0000-0000-0000-00005fde749f"
-      (reference "C24") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder")
-    )
-    (path "/00000000-0000-0000-0000-00005fde7c1a"
-      (reference "C25") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder")
-    )
-    (path "/00000000-0000-0000-0000-00005fde7e76"
-      (reference "C26") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder")
-    )
-    (path "/00000000-0000-0000-0000-000060374c44"
-      (reference "C27") (unit 1) (value "10 pF") (footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder")
-    )
-    (path "/00000000-0000-0000-0000-00006037626d"
-      (reference "C28") (unit 1) (value "10 pF") (footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder")
-    )
     (path "/5b8e7df7-283a-44e9-9f9f-111dd5910162"
-      (reference "C?") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder")
+      (reference "C14") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder")
     )
     (path "/9ba8cf5b-ada0-4796-84b4-ebd5a366b75f"
-      (reference "C?") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder")
+      (reference "C15") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder")
+    )
+    (path "/00000000-0000-0000-0000-00005fea8038"
+      (reference "C16") (unit 1) (value "20 pF") (footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder")
+    )
+    (path "/00000000-0000-0000-0000-00005fe98327"
+      (reference "C17") (unit 1) (value "20 pF") (footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder")
+    )
+    (path "/00000000-0000-0000-0000-00006110ad75"
+      (reference "C18") (unit 1) (value "DNP") (footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder")
+    )
+    (path "/00000000-0000-0000-0000-00006111b2bc"
+      (reference "C19") (unit 1) (value "DNP") (footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder")
+    )
+    (path "/00000000-0000-0000-0000-000061194b2e"
+      (reference "C20") (unit 1) (value "22pF") (footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder")
+    )
+    (path "/00000000-0000-0000-0000-00005fde69a7"
+      (reference "C21") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder")
+    )
+    (path "/00000000-0000-0000-0000-00005fde749f"
+      (reference "C22") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder")
+    )
+    (path "/00000000-0000-0000-0000-00005fde7c1a"
+      (reference "C23") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder")
+    )
+    (path "/00000000-0000-0000-0000-00005fde7e76"
+      (reference "C24") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder")
+    )
+    (path "/00000000-0000-0000-0000-000060374c44"
+      (reference "C25") (unit 1) (value "10 pF") (footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder")
+    )
+    (path "/00000000-0000-0000-0000-00006037626d"
+      (reference "C26") (unit 1) (value "10 pF") (footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder")
     )
     (path "/00000000-0000-0000-0000-00005fe2135d"
       (reference "D1") (unit 1) (value "GREEN 150060GS75000") (footprint "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder")
@@ -5773,59 +5773,59 @@
     (path "/00000000-0000-0000-0000-00006111c7d2"
       (reference "L2") (unit 1) (value "0ohm") (footprint "Inductor_SMD:L_0402_1005Metric_Pad0.77x0.64mm_HandSolder")
     )
-    (path "/00000000-0000-0000-0000-00005fe1e709"
-      (reference "R1") (unit 1) (value "5.1k") (footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
-    )
     (path "/00000000-0000-0000-0000-00005ff64bb4"
-      (reference "R2") (unit 1) (value "0") (footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
+      (reference "R1") (unit 1) (value "0") (footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
     )
-    (path "/00000000-0000-0000-0000-00005fe1f8a9"
-      (reference "R3") (unit 1) (value "5.1k") (footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
-    )
-    (path "/00000000-0000-0000-0000-0000600663ff"
-      (reference "R4") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
-    )
-    (path "/00000000-0000-0000-0000-00005fe2701e"
-      (reference "R5") (unit 1) (value "90") (footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
-    )
-    (path "/00000000-0000-0000-0000-00005fe2762f"
-      (reference "R6") (unit 1) (value "55") (footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
-    )
-    (path "/00000000-0000-0000-0000-00005fe27a79"
-      (reference "R7") (unit 1) (value "4") (footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
-    )
-    (path "/00000000-0000-0000-0000-000060026d0c"
-      (reference "R10") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
-    )
-    (path "/00000000-0000-0000-0000-000060d52308"
-      (reference "R11") (unit 1) (value "1.5k") (footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
-    )
-    (path "/00000000-0000-0000-0000-000060d92d6d"
-      (reference "R12") (unit 1) (value "0") (footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
-    )
-    (path "/00000000-0000-0000-0000-000060d6c057"
-      (reference "R13") (unit 1) (value "0") (footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
-    )
-    (path "/00000000-0000-0000-0000-000061154716"
-      (reference "R14") (unit 1) (value "0") (footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
-    )
-    (path "/00000000-0000-0000-0000-000060ff5cb5"
-      (reference "R15") (unit 1) (value "0") (footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
-    )
-    (path "/00000000-0000-0000-0000-00006065b2b7"
-      (reference "R16") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
-    )
-    (path "/00000000-0000-0000-0000-0000606c973a"
-      (reference "R17") (unit 1) (value "0") (footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
+    (path "/00000000-0000-0000-0000-00005fe1e709"
+      (reference "R2") (unit 1) (value "5.1k") (footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
     )
     (path "/74fa4467-11a3-4624-953f-71b57eac81cc"
-      (reference "R18") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
+      (reference "R3") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
     )
     (path "/59c69c7d-a79a-428c-9cfb-7636a832d0c9"
-      (reference "R19") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
+      (reference "R4") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
+    )
+    (path "/00000000-0000-0000-0000-00005fe1f8a9"
+      (reference "R5") (unit 1) (value "5.1k") (footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
+    )
+    (path "/00000000-0000-0000-0000-0000600663ff"
+      (reference "R6") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
     )
     (path "/bd66c290-7813-4adf-a0e4-2cb9f9d2c438"
-      (reference "R?") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
+      (reference "R7") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
+    )
+    (path "/00000000-0000-0000-0000-00005fe2701e"
+      (reference "R8") (unit 1) (value "90") (footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
+    )
+    (path "/00000000-0000-0000-0000-00005fe2762f"
+      (reference "R9") (unit 1) (value "55") (footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
+    )
+    (path "/00000000-0000-0000-0000-00005fe27a79"
+      (reference "R10") (unit 1) (value "4") (footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
+    )
+    (path "/00000000-0000-0000-0000-000060026d0c"
+      (reference "R11") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
+    )
+    (path "/00000000-0000-0000-0000-000060d52308"
+      (reference "R12") (unit 1) (value "1.5k") (footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
+    )
+    (path "/00000000-0000-0000-0000-000060d92d6d"
+      (reference "R13") (unit 1) (value "0") (footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
+    )
+    (path "/00000000-0000-0000-0000-000060d6c057"
+      (reference "R14") (unit 1) (value "0") (footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
+    )
+    (path "/00000000-0000-0000-0000-000061154716"
+      (reference "R15") (unit 1) (value "0") (footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
+    )
+    (path "/00000000-0000-0000-0000-000060ff5cb5"
+      (reference "R16") (unit 1) (value "0") (footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
+    )
+    (path "/00000000-0000-0000-0000-00006065b2b7"
+      (reference "R17") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
+    )
+    (path "/00000000-0000-0000-0000-0000606c973a"
+      (reference "R18") (unit 1) (value "0") (footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
     )
     (path "/00000000-0000-0000-0000-00005fe793bb"
       (reference "R_EXT1") (unit 1) (value "0") (footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
@@ -5839,17 +5839,17 @@
     (path "/00000000-0000-0000-0000-000060ae5634"
       (reference "U2") (unit 1) (value "USBLC6-2P6") (footprint "Package_TO_SOT_SMD:SOT-666")
     )
-    (path "/9e125fa8-f118-4a88-a186-4e1b0f17259b"
-      (reference "U3") (unit 1) (value "TXB0108DQSR") (footprint "cc2654-board-footprints:TXB0108DQSR")
-    )
     (path "/00000000-0000-0000-0000-00005fe144ff"
-      (reference "U4") (unit 1) (value "STM32F103C8Tx") (footprint "Package_QFP:LQFP-48_7x7mm_P0.5mm")
+      (reference "U3") (unit 1) (value "STM32F103C8Tx") (footprint "Package_QFP:LQFP-48_7x7mm_P0.5mm")
+    )
+    (path "/9e125fa8-f118-4a88-a186-4e1b0f17259b"
+      (reference "U4") (unit 1) (value "TXB0108DQSR") (footprint "cc2654-board-footprints:TXB0108DQSR")
     )
     (path "/00000000-0000-0000-0000-0000601b2d67"
-      (reference "U7") (unit 1) (value "CC2564CRVMR") (footprint "cc2654-board-footprints:CC2564CRVMR")
+      (reference "U5") (unit 1) (value "CC2564CRVMR") (footprint "cc2654-board-footprints:CC2564CRVMR")
     )
     (path "/00000000-0000-0000-0000-0000601ee200"
-      (reference "U7") (unit 2) (value "CC2564CRVMR") (footprint "cc2654-board-footprints:CC2564CRVMR")
+      (reference "U5") (unit 2) (value "CC2564CRVMR") (footprint "cc2654-board-footprints:CC2564CRVMR")
     )
     (path "/00000000-0000-0000-0000-000061429be6"
       (reference "Y1") (unit 1) (value "ECS-80-18-30-JGN-TR") (footprint "cc2654-board-footprints:XTAL_ECS-80-18-30-JGN-TR")
