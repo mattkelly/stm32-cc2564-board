@@ -132,6 +132,10 @@
         {
           "diameter": 0.46,
           "drill": 0.2
+        },
+        {
+          "diameter": 0.8,
+          "drill": 0.2
         }
       ],
       "zones_allow_external_fillets": false,
@@ -411,7 +415,7 @@
   },
   "sheets": [
     [
-      "46efccb2-aba1-4540-be49-73f3becf567b",
+      "a828f921-7b4f-4574-9b3f-bff56122d541",
       ""
     ]
   ],
